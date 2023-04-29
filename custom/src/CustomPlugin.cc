@@ -20,7 +20,6 @@
 #include "MultiVehicleManager.h"
 #include "QGCApplication.h"
 #include "SettingsManager.h"
-#include "AppMessages.h"
 #include "QmlComponentInfo.h"
 #include "QGCPalette.h"
 
