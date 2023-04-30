@@ -18,6 +18,8 @@
 
 #include <QTranslator>
 
+#include "FeatureHandler.h"
+
 class CustomOptions;
 class CustomPlugin;
 class CustomSettings;
@@ -51,6 +53,8 @@ private:
 class CustomPlugin : public QGCCorePlugin
 {
     Q_OBJECT
+    Q_PROPERTY(FeatureHandler* featureHandler READ featureHandler)
+
 public:
     CustomPlugin(QGCApplication* app, QGCToolbox *toolbox);
     ~CustomPlugin();
@@ -67,6 +71,11 @@ public:
 
     // Overrides from QGCTool
     void                    setToolbox                      (QGCToolbox* toolbox);
+
+    // Feature Handler
+    FeatureHandler* _featureHandler;
+    // feature A
+    FeatureHandler* featureHandler() const;
 
 private slots:
     void _advancedChanged(bool advanced);

@@ -75,10 +75,17 @@ CustomPlugin::CustomPlugin(QGCApplication *app, QGCToolbox* toolbox)
 {
     _options = new CustomOptions(this, this);
     _showAdvancedUI = false;
+
+    _featureHandler = new FeatureHandler();
 }
 
 CustomPlugin::~CustomPlugin()
 {
+}
+
+FeatureHandler* CustomPlugin::featureHandler() const
+{
+    return _featureHandler;
 }
 
 void CustomPlugin::setToolbox(QGCToolbox* toolbox)

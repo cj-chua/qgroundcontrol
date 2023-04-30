@@ -59,11 +59,11 @@ QML_IMPORT_PATH += \
 # Our own, custom sources
 SOURCES += \
     $$PWD/src/CustomPlugin.cc \
-    $$PWD/src/AuthHandler.cc \
+    $$PWD/src/FeatureHandler.cc \
 
 HEADERS += \
     $$PWD/src/CustomPlugin.h \
-    $$PWD/src/AuthHandler.h \
+    $$PWD/src/FeatureHandler.h \
 
 INCLUDEPATH += \
     $$PWD/src \
