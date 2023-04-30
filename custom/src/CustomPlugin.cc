@@ -139,12 +139,12 @@ QGCOptions* CustomPlugin::options()
 
 QString CustomPlugin::brandImageIndoor(void) const
 {
-    return QStringLiteral("/custom/img/ArcSkyIcon.png");
+    return QStringLiteral("/custom/img/ArcSkyLogo.png");
 }
 
 QString CustomPlugin::brandImageOutdoor(void) const
 {
-    return QStringLiteral("/custom/img/ArcSkyIcon.png");
+    return QStringLiteral("/custom/img/ArcSkyLogo.png");
 }
 
 bool CustomPlugin::overrideSettingsGroupVisibility(QString name)

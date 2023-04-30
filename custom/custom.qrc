@@ -14,6 +14,7 @@
         <file alias="vertical_speed.svg">res/Images/vertical_speed.svg</file>
         <file alias="CustomAppIcon.png">res/Images/CustomAppIcon.png</file>
         <file alias="ArcSkyIcon.png">res/Images/arcsky-logo-1024.png</file>
+        <file alias="ArcSkyLogo.png">res/Images/arcsky-logo-full.png</file>
     </qresource>
     <qresource prefix="/qmlimages">
 	<file alias="PaperPlane.svg">res/Images/CustomVehicleIcon.svg</file>
